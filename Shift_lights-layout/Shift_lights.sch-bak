@@ -1,0 +1,715 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED:SK6812 D1
+U 1 1 5E2E3051
+P 1700 1350
+F 0 "D1" H 2044 1396 50  0000 L CNN
+F 1 "SK6812" H 2044 1305 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 1750 1050 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 1800 975 50  0001 L TNN
+	1    1700 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D4
+U 1 1 5E2E3160
+P 2850 1350
+F 0 "D4" H 3194 1396 50  0000 L CNN
+F 1 "SK6812" H 3194 1305 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 2900 1050 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 2950 975 50  0001 L TNN
+	1    2850 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D7
+U 1 1 5E2E6770
+P 3850 1350
+F 0 "D7" H 4194 1396 50  0000 L CNN
+F 1 "SK6812" H 4194 1305 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 3900 1050 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3950 975 50  0001 L TNN
+	1    3850 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D10
+U 1 1 5E2E6776
+P 5000 1350
+F 0 "D10" H 5344 1396 50  0000 L CNN
+F 1 "SK6812" H 5344 1305 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 5050 1050 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 5100 975 50  0001 L TNN
+	1    5000 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D13
+U 1 1 5E2E72B0
+P 6100 1350
+F 0 "D13" H 6444 1396 50  0000 L CNN
+F 1 "SK6812" H 6444 1305 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 6150 1050 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 6200 975 50  0001 L TNN
+	1    6100 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D16
+U 1 1 5E2E72B6
+P 7250 1350
+F 0 "D16" H 7594 1396 50  0000 L CNN
+F 1 "SK6812" H 7594 1305 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 7300 1050 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 7350 975 50  0001 L TNN
+	1    7250 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D20
+U 1 1 5E2E8296
+P 9450 1350
+F 0 "D20" H 9794 1396 50  0000 L CNN
+F 1 "SK6812" H 9794 1305 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 9500 1050 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 9550 975 50  0001 L TNN
+	1    9450 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 1350 2550 1350
+Wire Wire Line
+	3150 1350 3550 1350
+Wire Wire Line
+	4150 1350 4700 1350
+Wire Wire Line
+	5300 1350 5800 1350
+Wire Wire Line
+	6400 1350 6950 1350
+Wire Wire Line
+	7550 1350 8000 1350
+Wire Wire Line
+	8600 1350 9150 1350
+Wire Wire Line
+	9750 1350 10200 1350
+Wire Wire Line
+	10200 1350 10200 1900
+Wire Wire Line
+	10200 1900 1250 1900
+$Comp
+L LED:SK6812 D5
+U 1 1 5E2FBE60
+P 2850 3000
+F 0 "D5" H 3194 3046 50  0000 L CNN
+F 1 "SK6812" H 3194 2955 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 2900 2700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 2950 2625 50  0001 L TNN
+	1    2850 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D8
+U 1 1 5E2FBE66
+P 3850 3000
+F 0 "D8" H 4194 3046 50  0000 L CNN
+F 1 "SK6812" H 4194 2955 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 3900 2700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3950 2625 50  0001 L TNN
+	1    3850 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D11
+U 1 1 5E2FBE6C
+P 5000 3000
+F 0 "D11" H 5344 3046 50  0000 L CNN
+F 1 "SK6812" H 5344 2955 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 5050 2700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 5100 2625 50  0001 L TNN
+	1    5000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D14
+U 1 1 5E2FBE72
+P 6100 3000
+F 0 "D14" H 6444 3046 50  0000 L CNN
+F 1 "SK6812" H 6444 2955 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 6150 2700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 6200 2625 50  0001 L TNN
+	1    6100 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D17
+U 1 1 5E2FBE78
+P 7250 3000
+F 0 "D17" H 7594 3046 50  0000 L CNN
+F 1 "SK6812" H 7594 2955 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 7300 2700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 7350 2625 50  0001 L TNN
+	1    7250 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D19
+U 1 1 5E2FBE7E
+P 8300 3000
+F 0 "D19" H 8644 3046 50  0000 L CNN
+F 1 "SK6812" H 8644 2955 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 8350 2700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 8400 2625 50  0001 L TNN
+	1    8300 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D21
+U 1 1 5E2FBE84
+P 9450 3000
+F 0 "D21" H 9794 3046 50  0000 L CNN
+F 1 "SK6812" H 9794 2955 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 9500 2700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 9550 2625 50  0001 L TNN
+	1    9450 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 3000 2550 3000
+Wire Wire Line
+	3150 3000 3550 3000
+Wire Wire Line
+	4150 3000 4700 3000
+Wire Wire Line
+	5300 3000 5800 3000
+Wire Wire Line
+	6400 3000 6950 3000
+Wire Wire Line
+	7550 3000 8000 3000
+Wire Wire Line
+	8600 3000 9150 3000
+Wire Wire Line
+	10250 3000 10250 3650
+Wire Wire Line
+	10250 3650 1300 3650
+Text GLabel 1700 1650 3    50   Input ~ 0
+GND
+Text GLabel 2850 1650 3    50   Input ~ 0
+GND
+Text GLabel 3850 1650 3    50   Input ~ 0
+GND
+Text GLabel 5000 1650 3    50   Input ~ 0
+GND
+Text GLabel 6100 1650 3    50   Input ~ 0
+GND
+Text GLabel 7250 1650 3    50   Input ~ 0
+GND
+Text GLabel 9450 1650 3    50   Input ~ 0
+GND
+Text GLabel 9450 3300 3    50   Input ~ 0
+GND
+Text GLabel 8300 3300 3    50   Input ~ 0
+GND
+Text GLabel 7250 3300 3    50   Input ~ 0
+GND
+Text GLabel 6100 3300 3    50   Input ~ 0
+GND
+Text GLabel 5000 3300 3    50   Input ~ 0
+GND
+Text GLabel 3850 3300 3    50   Input ~ 0
+GND
+Text GLabel 2850 3300 3    50   Input ~ 0
+GND
+Text GLabel 1700 3300 3    50   Input ~ 0
+GND
+Text GLabel 1700 4950 3    50   Input ~ 0
+GND
+Text GLabel 2850 4950 3    50   Input ~ 0
+GND
+Text GLabel 3850 4950 3    50   Input ~ 0
+GND
+Text GLabel 5000 4950 3    50   Input ~ 0
+GND
+Text GLabel 6100 4950 3    50   Input ~ 0
+GND
+$Comp
+L Device:C C1
+U 1 1 5E307BC4
+P 1700 850
+F 0 "C1" H 1815 896 50  0000 L CNN
+F 1 "C" H 1815 805 50  0000 L CNN
+F 2 "steering_wheel_LEDs:C0603C105K8PACTU" H 1738 700 50  0001 C CNN
+F 3 "~" H 1700 850 50  0001 C CNN
+	1    1700 850 
+	1    0    0    -1  
+$EndComp
+Text GLabel 1700 700  1    50   Input ~ 0
+GND
+Text GLabel 1700 1000 0    50   Input ~ 0
+PWR
+Wire Wire Line
+	1700 1050 1700 1000
+$Comp
+L Device:C C4
+U 1 1 5E30D975
+P 2850 850
+F 0 "C4" H 2965 896 50  0000 L CNN
+F 1 "C" H 2965 805 50  0000 L CNN
+F 2 "steering_wheel_LEDs:C0603C105K8PACTU" H 2888 700 50  0001 C CNN
+F 3 "~" H 2850 850 50  0001 C CNN
+	1    2850 850 
+	1    0    0    -1  
+$EndComp
+Text GLabel 2850 700  1    50   Input ~ 0
+GND
+Text GLabel 2850 1000 0    50   Input ~ 0
+PWR
+Wire Wire Line
+	2850 1050 2850 1000
+$Comp
+L Device:C C7
+U 1 1 5E30E31D
+P 3850 850
+F 0 "C7" H 3965 896 50  0000 L CNN
+F 1 "C" H 3965 805 50  0000 L CNN
+F 2 "steering_wheel_LEDs:C0603C105K8PACTU" H 3888 700 50  0001 C CNN
+F 3 "~" H 3850 850 50  0001 C CNN
+	1    3850 850 
+	1    0    0    -1  
+$EndComp
+Text GLabel 3850 700  1    50   Input ~ 0
+GND
+Text GLabel 3850 1000 0    50   Input ~ 0
+PWR
+Wire Wire Line
+	3850 1050 3850 1000
+$Comp
+L Device:C C10
+U 1 1 5E30ECBB
+P 5000 850
+F 0 "C10" H 5115 896 50  0000 L CNN
+F 1 "C" H 5115 805 50  0000 L CNN
+F 2 "steering_wheel_LEDs:C0603C105K8PACTU" H 5038 700 50  0001 C CNN
+F 3 "~" H 5000 850 50  0001 C CNN
+	1    5000 850 
+	1    0    0    -1  
+$EndComp
+Text GLabel 5000 700  1    50   Input ~ 0
+GND
+Text GLabel 5000 1000 0    50   Input ~ 0
+PWR
+Wire Wire Line
+	5000 1050 5000 1000
+$Comp
+L Device:C C13
+U 1 1 5E30F724
+P 6100 850
+F 0 "C13" H 6215 896 50  0000 L CNN
+F 1 "C" H 6215 805 50  0000 L CNN
+F 2 "steering_wheel_LEDs:C0603C105K8PACTU" H 6138 700 50  0001 C CNN
+F 3 "~" H 6100 850 50  0001 C CNN
+	1    6100 850 
+	1    0    0    -1  
+$EndComp
+Text GLabel 6100 700  1    50   Input ~ 0
+GND
+Text GLabel 6100 1000 0    50   Input ~ 0
+PWR
+Wire Wire Line
+	6100 1050 6100 1000
+$Comp
+L Device:C C16
+U 1 1 5E310011
+P 7250 850
+F 0 "C16" H 7365 896 50  0000 L CNN
+F 1 "C" H 7365 805 50  0000 L CNN
+F 2 "steering_wheel_LEDs:C0603C105K8PACTU" H 7288 700 50  0001 C CNN
+F 3 "~" H 7250 850 50  0001 C CNN
+	1    7250 850 
+	1    0    0    -1  
+$EndComp
+Text GLabel 7250 700  1    50   Input ~ 0
+GND
+Text GLabel 7250 1000 0    50   Input ~ 0
+PWR
+Wire Wire Line
+	7250 1050 7250 1000
+Wire Wire Line
+	1300 4650 1400 4650
+Wire Wire Line
+	1300 3650 1300 4650
+$Comp
+L LED:SK6812 D2
+U 1 1 5E2FBE5A
+P 1700 3000
+F 0 "D2" H 2044 3046 50  0000 L CNN
+F 1 "SK6812" H 2044 2955 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 1750 2700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 1800 2625 50  0001 L TNN
+	1    1700 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 3000 10250 3000
+Wire Wire Line
+	1250 3000 1400 3000
+Wire Wire Line
+	1250 1900 1250 3000
+$Comp
+L Device:C C2
+U 1 1 5E32BB17
+P 1700 2500
+F 0 "C2" H 1815 2546 50  0000 L CNN
+F 1 "C" H 1815 2455 50  0000 L CNN
+F 2 "steering_wheel_LEDs:C0603C105K8PACTU" H 1738 2350 50  0001 C CNN
+F 3 "~" H 1700 2500 50  0001 C CNN
+	1    1700 2500
+	1    0    0    -1  
+$EndComp
+Text GLabel 1700 2350 1    50   Input ~ 0
+GND
+Text GLabel 1700 2650 0    50   Input ~ 0
+PWR
+Wire Wire Line
+	1700 2700 1700 2650
+$Comp
+L Device:C C5
+U 1 1 5E32BB20
+P 2850 2500
+F 0 "C5" H 2965 2546 50  0000 L CNN
+F 1 "C" H 2965 2455 50  0000 L CNN
+F 2 "steering_wheel_LEDs:C0603C105K8PACTU" H 2888 2350 50  0001 C CNN
+F 3 "~" H 2850 2500 50  0001 C CNN
+	1    2850 2500
+	1    0    0    -1  
+$EndComp
+Text GLabel 2850 2350 1    50   Input ~ 0
+GND
+Text GLabel 2850 2650 0    50   Input ~ 0
+PWR
+Wire Wire Line
+	2850 2700 2850 2650
+$Comp
+L Device:C C8
+U 1 1 5E32BB29
+P 3850 2500
+F 0 "C8" H 3965 2546 50  0000 L CNN
+F 1 "C" H 3965 2455 50  0000 L CNN
+F 2 "steering_wheel_LEDs:C0603C105K8PACTU" H 3888 2350 50  0001 C CNN
+F 3 "~" H 3850 2500 50  0001 C CNN
+	1    3850 2500
+	1    0    0    -1  
+$EndComp
+Text GLabel 3850 2350 1    50   Input ~ 0
+GND
+Text GLabel 3850 2650 0    50   Input ~ 0
+PWR
+Wire Wire Line
+	3850 2700 3850 2650
+$Comp
+L Device:C C11
+U 1 1 5E32BB32
+P 5000 2500
+F 0 "C11" H 5115 2546 50  0000 L CNN
+F 1 "C" H 5115 2455 50  0000 L CNN
+F 2 "steering_wheel_LEDs:C0603C105K8PACTU" H 5038 2350 50  0001 C CNN
+F 3 "~" H 5000 2500 50  0001 C CNN
+	1    5000 2500
+	1    0    0    -1  
+$EndComp
+Text GLabel 5000 2350 1    50   Input ~ 0
+GND
+Text GLabel 5000 2650 0    50   Input ~ 0
+PWR
+Wire Wire Line
+	5000 2700 5000 2650
+$Comp
+L Device:C C14
+U 1 1 5E32BB3B
+P 6100 2500
+F 0 "C14" H 6215 2546 50  0000 L CNN
+F 1 "C" H 6215 2455 50  0000 L CNN
+F 2 "steering_wheel_LEDs:C0603C105K8PACTU" H 6138 2350 50  0001 C CNN
+F 3 "~" H 6100 2500 50  0001 C CNN
+	1    6100 2500
+	1    0    0    -1  
+$EndComp
+Text GLabel 6100 2350 1    50   Input ~ 0
+GND
+Text GLabel 6100 2650 0    50   Input ~ 0
+PWR
+Wire Wire Line
+	6100 2700 6100 2650
+$Comp
+L Device:C C17
+U 1 1 5E32BB44
+P 7250 2500
+F 0 "C17" H 7365 2546 50  0000 L CNN
+F 1 "C" H 7365 2455 50  0000 L CNN
+F 2 "steering_wheel_LEDs:C0603C105K8PACTU" H 7288 2350 50  0001 C CNN
+F 3 "~" H 7250 2500 50  0001 C CNN
+	1    7250 2500
+	1    0    0    -1  
+$EndComp
+Text GLabel 7250 2350 1    50   Input ~ 0
+GND
+Text GLabel 7250 2650 0    50   Input ~ 0
+PWR
+Wire Wire Line
+	7250 2700 7250 2650
+$Comp
+L Device:C C19
+U 1 1 5E32BB4D
+P 8300 2500
+F 0 "C19" H 8415 2546 50  0000 L CNN
+F 1 "C" H 8415 2455 50  0000 L CNN
+F 2 "steering_wheel_LEDs:C0603C105K8PACTU" H 8338 2350 50  0001 C CNN
+F 3 "~" H 8300 2500 50  0001 C CNN
+	1    8300 2500
+	1    0    0    -1  
+$EndComp
+Text GLabel 8300 2350 1    50   Input ~ 0
+GND
+Text GLabel 8300 2650 0    50   Input ~ 0
+PWR
+Wire Wire Line
+	8300 2700 8300 2650
+Wire Wire Line
+	8300 1050 8300 1000
+Text GLabel 8300 1000 0    50   Input ~ 0
+PWR
+Text GLabel 8300 700  1    50   Input ~ 0
+GND
+$Comp
+L Device:C C18
+U 1 1 5E310927
+P 8300 850
+F 0 "C18" H 8415 896 50  0000 L CNN
+F 1 "C" H 8415 805 50  0000 L CNN
+F 2 "steering_wheel_LEDs:C0603C105K8PACTU" H 8338 700 50  0001 C CNN
+F 3 "~" H 8300 850 50  0001 C CNN
+	1    8300 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D18
+U 1 1 5E2E8290
+P 8300 1350
+F 0 "D18" H 8644 1396 50  0000 L CNN
+F 1 "SK6812" H 8644 1305 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 8350 1050 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 8400 975 50  0001 L TNN
+	1    8300 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C20
+U 1 1 5E32D81B
+P 9450 900
+F 0 "C20" H 9565 946 50  0000 L CNN
+F 1 "C" H 9565 855 50  0000 L CNN
+F 2 "steering_wheel_LEDs:C0603C105K8PACTU" H 9488 750 50  0001 C CNN
+F 3 "~" H 9450 900 50  0001 C CNN
+	1    9450 900 
+	1    0    0    -1  
+$EndComp
+Text GLabel 9450 750  1    50   Input ~ 0
+GND
+Text GLabel 9450 1050 0    50   Input ~ 0
+PWR
+$Comp
+L Device:C C21
+U 1 1 5E32EF7E
+P 9450 2500
+F 0 "C21" H 9565 2546 50  0000 L CNN
+F 1 "C" H 9565 2455 50  0000 L CNN
+F 2 "steering_wheel_LEDs:C0603C105K8PACTU" H 9488 2350 50  0001 C CNN
+F 3 "~" H 9450 2500 50  0001 C CNN
+	1    9450 2500
+	1    0    0    -1  
+$EndComp
+Text GLabel 9450 2350 1    50   Input ~ 0
+GND
+Text GLabel 9450 2650 0    50   Input ~ 0
+PWR
+Wire Wire Line
+	9450 2700 9450 2650
+Wire Wire Line
+	5300 4650 5800 4650
+Wire Wire Line
+	4150 4650 4700 4650
+Wire Wire Line
+	3150 4650 3550 4650
+Wire Wire Line
+	2000 4650 2550 4650
+$Comp
+L LED:SK6812 D15
+U 1 1 5E2EEC1B
+P 6100 4650
+F 0 "D15" H 6444 4696 50  0000 L CNN
+F 1 "SK6812" H 6444 4605 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 6150 4350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 6200 4275 50  0001 L TNN
+	1    6100 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D12
+U 1 1 5E2EDABC
+P 5000 4650
+F 0 "D12" H 5344 4696 50  0000 L CNN
+F 1 "SK6812" H 5344 4605 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 5050 4350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 5100 4275 50  0001 L TNN
+	1    5000 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D9
+U 1 1 5E2EDAB6
+P 3850 4650
+F 0 "D9" H 4194 4696 50  0000 L CNN
+F 1 "SK6812" H 4194 4605 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 3900 4350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3950 4275 50  0001 L TNN
+	1    3850 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D6
+U 1 1 5E2ED3F8
+P 2850 4650
+F 0 "D6" H 3194 4696 50  0000 L CNN
+F 1 "SK6812" H 3194 4605 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 2900 4350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 2950 4275 50  0001 L TNN
+	1    2850 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D3
+U 1 1 5E2ED3F2
+P 1700 4650
+F 0 "D3" H 2044 4696 50  0000 L CNN
+F 1 "SK6812" H 2044 4605 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 1750 4350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 1800 4275 50  0001 L TNN
+	1    1700 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5E3344FF
+P 1700 4150
+F 0 "C3" H 1815 4196 50  0000 L CNN
+F 1 "C" H 1815 4105 50  0000 L CNN
+F 2 "steering_wheel_LEDs:C0603C105K8PACTU" H 1738 4000 50  0001 C CNN
+F 3 "~" H 1700 4150 50  0001 C CNN
+	1    1700 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 1700 4000 1    50   Input ~ 0
+GND
+Text GLabel 1700 4300 0    50   Input ~ 0
+PWR
+Wire Wire Line
+	1700 4350 1700 4300
+$Comp
+L Device:C C6
+U 1 1 5E335033
+P 2850 4150
+F 0 "C6" H 2965 4196 50  0000 L CNN
+F 1 "C" H 2965 4105 50  0000 L CNN
+F 2 "steering_wheel_LEDs:C0603C105K8PACTU" H 2888 4000 50  0001 C CNN
+F 3 "~" H 2850 4150 50  0001 C CNN
+	1    2850 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 2850 4000 1    50   Input ~ 0
+GND
+Text GLabel 2850 4300 0    50   Input ~ 0
+PWR
+Wire Wire Line
+	2850 4350 2850 4300
+$Comp
+L Device:C C9
+U 1 1 5E335B62
+P 3850 4150
+F 0 "C9" H 3965 4196 50  0000 L CNN
+F 1 "C" H 3965 4105 50  0000 L CNN
+F 2 "steering_wheel_LEDs:C0603C105K8PACTU" H 3888 4000 50  0001 C CNN
+F 3 "~" H 3850 4150 50  0001 C CNN
+	1    3850 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 3850 4000 1    50   Input ~ 0
+GND
+Text GLabel 3850 4300 0    50   Input ~ 0
+PWR
+Wire Wire Line
+	3850 4350 3850 4300
+$Comp
+L Device:C C12
+U 1 1 5E336961
+P 5000 4150
+F 0 "C12" H 5115 4196 50  0000 L CNN
+F 1 "C" H 5115 4105 50  0000 L CNN
+F 2 "steering_wheel_LEDs:C0603C105K8PACTU" H 5038 4000 50  0001 C CNN
+F 3 "~" H 5000 4150 50  0001 C CNN
+	1    5000 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 5000 4000 1    50   Input ~ 0
+GND
+Text GLabel 5000 4300 0    50   Input ~ 0
+PWR
+Wire Wire Line
+	5000 4350 5000 4300
+$Comp
+L Device:C C15
+U 1 1 5E33749D
+P 6100 4150
+F 0 "C15" H 6215 4196 50  0000 L CNN
+F 1 "C" H 6215 4105 50  0000 L CNN
+F 2 "steering_wheel_LEDs:C0603C105K8PACTU" H 6138 4000 50  0001 C CNN
+F 3 "~" H 6100 4150 50  0001 C CNN
+	1    6100 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 6100 4000 1    50   Input ~ 0
+GND
+Text GLabel 6100 4300 0    50   Input ~ 0
+PWR
+Wire Wire Line
+	6100 4350 6100 4300
+$Comp
+L Connector:Conn_01x03_Male J1
+U 1 1 5E339119
+P 900 1250
+F 0 "J1" H 1008 1531 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 1008 1440 50  0000 C CNN
+F 2 "steering_wheel_LEDs:3_pin_connector" H 900 1250 50  0001 C CNN
+F 3 "~" H 900 1250 50  0001 C CNN
+	1    900  1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 1350 1400 1350
+Text GLabel 1100 1150 2    50   Input ~ 0
+GND
+Text GLabel 1100 1250 2    50   Input ~ 0
+PWR
+$EndSCHEMATC

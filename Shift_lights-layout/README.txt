@@ -1,0 +1,1 @@
+There are two files in this folder of interest. The Shift_lights.pro which u can open in Kicad to view the full PCB layout and LED-PCB_dimentions.pdf to get detailed schematics on the layout
